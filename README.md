@@ -1,5 +1,4 @@
 # Discord Reminder Bot
-<<<<<<< HEAD
 Discord bot `simple reminder` with discord.js
 
 ## Commands

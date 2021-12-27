@@ -1,0 +1,58 @@
+{
+    "bot": {
+        "prefix": ">",
+        "command": {
+            "deleteAfterExecuted": {
+                "enabled": true,
+                "miliseccond": 3000                
+            }
+        }
+    },
+    "message": {
+        "command": {
+            "embed": {
+                "setReminder": {
+                    "color": "0099ff", 
+                    "title": "",               
+                    "description": "▪️\nSet reminder for {user}, \n```you will be reminded to {reminder} in {time}```\n▪️",
+                    "author": {
+                        "name": "Reminder set by {user}",
+                        "icon_url": "https://cdn.discordapp.com/emojis/835178314301833286.png?v=1"
+                    },
+                    "footer": {
+                        "text": "Reminder set by {user}",      
+                        "icon_url": ""
+                    }                
+                },
+                "tellReminder": {
+                    "color": "0099ff", 
+                    "title": "",               
+                    "description": "▪️\nHey {user} i want to remind you, \n```{reminder}```\n▪️",
+                    "author": {
+                        "name": "Reminder for {user}",
+                        "icon_url": "https://cdn.discordapp.com/emojis/835178314301833286.png?v=1"
+                    },
+                    "footer": {
+                        "text": "Hey don't miss it {user}",      
+                        "icon_url": ""
+                    }                
+                },
+                "reminderError": {
+                    "color": "ffc800", 
+                    "title": "Time is not defined",               
+                    "description": "▪️\nHey {user} you entered the wrong input, should be like this \n```>remind agenda time=5m```",
+                    "author": {
+                        "name": "",
+                        "icon_url": ""
+                    },
+                    "footer": {
+                        "text": "Failed to remind {user}",      
+                        "icon_url": ""
+                    }                
+                }    
+            },            
+            "notFound": "Command not found!",
+            "error": "` Error executing command! `"
+        }
+    }
+}

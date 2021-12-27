@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "asd.js": "^1.0.0",
+    "discord.js": "^12.5.3",
+    "dotenv": "^9.0.2",
+    "env": "^0.0.2",
+    "fs": "^0.0.1-security",
+    "ms": "^2.1.3"
+  },
+  "scripts": {
+    "dev": "node main.js"
+  }
+}
